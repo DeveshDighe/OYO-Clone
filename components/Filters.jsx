@@ -29,7 +29,7 @@ const Filters = ({ price, setPrice, handlePrice, checkedList, setCheckedList }) 
   }, []);
 
   return (
-    <div className="border border-gray-400   rounded-md m-5 p-5 sticky top-1">
+    <div className="rounded-md m-5 p-5 sticky top-1">
       <div className="mb-5">
         <p className=" text-3xl text-center font-bold mb-6">Filter Hotels</p>
         <label htmlFor="price" className="text-xl mr-3 font-bold">Price :</label>

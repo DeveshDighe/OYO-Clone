@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hotel = ({ e }) => {
   return (
-    <div className="border border-gray-400 rounded-lg mb-5 p-3">
+    <div className="border border-gray-300 rounded-sm mb-5 p-2">
       <div className="flex flex-col lg:flex-row">
         <div className="lg:w-1/3 lg:mr-5 mb-5 lg:mb-0">
           <Image
