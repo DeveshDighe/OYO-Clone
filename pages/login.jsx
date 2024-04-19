@@ -3,6 +3,7 @@ import { useState } from "react";
 import axios from "axios";
 import Cookies from "js-cookie";
 import { useRouter } from "next/router";
+import toast from "react-hot-toast";
 
 const Login = () => {
   const [name, setName] = useState("");
@@ -20,7 +21,7 @@ const Login = () => {
     });
     if (res?.data.success) {
       // Cookies.set("user", res.data.token, { expires: 7 });
-      alert(res.data.msg);
+      toast.success(res.data.msg);
       router.back();
     }
   };
@@ -37,11 +38,11 @@ const Login = () => {
       });
       if (res?.data.success) {
         Cookies.set("user", res.data.token, { expires: 7 });
-        alert(res.data.msg);
+        toast.success(res.data.msg);
         router.back();
       }
     } catch (error) {
-      alert(error.response.data.msg);
+      toast.error(error.response.data.msg);
       console.log(error, "errorr aya");
     }
   };

@@ -1,6 +1,7 @@
 import axios from "axios";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
+import toast from "react-hot-toast";
 
 const Header4 = () => {
   const emailRef = useRef('');
@@ -18,10 +19,10 @@ const Header4 = () => {
       const res = await axios.post('/api/user/notify', {email} )
       if (res.data.success) {
         console.log(res.data , ' res.data');
-        alert(res.data.msg)
+        toast.success(res.data.msg)
       }
     } catch (error) {
-      alert(error.response.data.msg)
+      toast.error(error.response.data.msg)
       console.log(error, 'error');
     }
   };

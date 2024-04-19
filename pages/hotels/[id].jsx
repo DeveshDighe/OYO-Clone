@@ -66,20 +66,20 @@ const SingleHotel = ({ hotel }) => {
           <h3 className=" text-3xl font-bold">{hotel?.name}</h3>
           <p className=" text-xl my-5 text-justify">{hotel?.description}</p>
           <p className=" text-3xl font-bold my-5">Facilities : </p>
-          <ul className=" flex text-xl  flex-wrap">
+          <ul className=" flex text-xl  flex-wrap items-center">
             {hotel
               ? hotel.facilities?.map((ele) => {
                 return (
                   <li
                     key={ele.name}
-                    className=" mr-10 mb-3 flex items-center"
+                    className=" mr-10  flex items-center justify-center"
                   >
                     <span>
                       <img
                         src={ele.img}
                         width={200}
                         height={200}
-                        className="w-8 h-8 rounded-full"
+                        className="w-10 h-9 rounded-md"
                       />
                     </span>
                     <span className="ml-5">{ele.name}</span>
