@@ -1,41 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OYO Website Clone
 
-## Getting Started
+Welcome to the OYO website clone, built using Next.js and MongoDB! This project offers users the ability to browse a variety of hotels listed on the website, along with features such as user authentication (login and registration). Users can also view detailed information about individual hotels on dedicated pages.
 
-First, run the development server:
+Additionally, administrators have the capability to create and list new hotels, enhancing the platform's content over time. To assist users in finding suitable accommodations, the website provides filtering options based on price range, available facilities, and specific city names.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Browse a wide range of hotels listed on the platform.
+- User authentication system for login and registration.
+- Detailed hotel pages with comprehensive information.
+- Admin panel for creating and listing new hotels.
+- Filtering options for users based on price range, facilities, and city names.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Technologies Used
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# OYO-Clone
+- Next.js
+- MongoDB
+- React.js
+- Node.js
+- CSS (Tailwind Css)
