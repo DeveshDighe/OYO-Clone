@@ -77,6 +77,7 @@ export async function getServerSideProps(ctx) {
     const res = await axios.get(`${process.env.Host_URl}/api/hotels?city=${ctx.query.city}`);
     data = res.data.hotels;
   } catch (error) {
+    console.log(error, 'eroeeee');
     console.error('Error fetching hotels:', error.response.data.msg);
   }
 
