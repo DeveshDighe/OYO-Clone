@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 
 const Footer = () => {
@@ -23,27 +24,27 @@ const Footer = () => {
                 {name: 'About Me', id: 'About', href: '#About' },
                 ] */}
                 <nav className="flex justify-center flex-wrap gap-6 text-gray-100 font-medium">
-                    <a className="hover:text-gray-500" href="/">Home</a>
-                    <a className="hover:text-gray-500" href="#Prod">Products</a>
-                    <a className="hover:text-gray-500" href="#">Services</a>
-                    <a className="hover:text-gray-500" href="#">Media</a>
-                    <a className="hover:text-gray-500" href="#">Gallery</a>
-                    <a className="hover:text-gray-500" href="#">Contact</a>
+                    <Link className="hover:text-gray-500" href="/">Home</Link>
+                    <Link className="hover:text-gray-500" href="#Prod">Products</Link>
+                    <Link className="hover:text-gray-500" href="#">Services</Link>
+                    <Link className="hover:text-gray-500" href="#">Media</Link>
+                    <Link className="hover:text-gray-500" href="#">Gallery</Link>
+                    <Link className="hover:text-gray-500" href="#">Contact</Link>
                 </nav>
 
                 <div className="flex justify-center space-x-5">
-                    <a href="https://www.linkedin.com/in/deveshdighe" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://www.linkedin.com/in/deveshdighe" target="_blank" rel="noopener noreferrer">
                         <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
-                    </a>
-                    <a href="https://www.instagram.com/im___deveshhh?igsh=MTMwHR2Ym01NXhmaA==" target="_blank" rel="noopener noreferrer">
+                    </Link>
+                    <Link href="https://www.instagram.com/im___deveshhh?igsh=MTMwHR2Ym01NXhmaA==" target="_blank" rel="noopener noreferrer">
                         <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png"  />
-                    </a>
-                    <a href="https://github.com/DeveshDighe" target="_blank" rel="noopener noreferrer">
+                    </Link>
+                    <Link href="https://github.com/DeveshDighe" target="_blank" rel="noopener noreferrer">
                         <img src="https://img.icons8.com/fluent/30/000000/github.png" />
-                    </a>
-                    <a href="https://twitter.com/devesh_dighe" target="_blank" rel="noopener noreferrer">
+                    </Link>
+                    <Link href="https://twitter.com/devesh_dighe" target="_blank" rel="noopener noreferrer">
     <img src="https://img.icons8.com/fluent/30/000000/twitter.png" alt="Twitter" />
-</a>
+</Link>
 
 
                 </div>
