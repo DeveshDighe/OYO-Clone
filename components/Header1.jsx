@@ -36,7 +36,7 @@ const Header1 = () => {
     router.push("/");
   };
   return (
-    <div className=" flex justify-between border-b-2 border-gray-300 items-center h-24 px-10 max-sm:px-4">
+    <div className=" flex justify-between border-b border-gray-300 items-center h-24 px-10 max-sm:px-4">
       <Image
         src={"/logo.png"}
         alt="logo"
